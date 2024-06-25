@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../isp3_1/display.vhd" \
+"../../../../../isp3_1/encoder.vhd" \
+"../../../../../isp3_1/top.vhd" \
+"../../../../project_4.srcs/sim_1/new/tb_top.vhd" \
+
+# Do not sort compile order
+nosort
